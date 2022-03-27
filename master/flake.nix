@@ -11,6 +11,7 @@
   inputs.src-parsesql-master.ref   = "refs/heads/master";
   inputs.src-parsesql-master.owner = "bung87";
   inputs.src-parsesql-master.repo  = "parsesql";
+  inputs.src-parsesql-master.dir   = "";
   inputs.src-parsesql-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
